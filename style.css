@@ -1,0 +1,57 @@
+::selection{
+	color: rgb(181, 184, 255);
+	background: #000000;
+}
+
+#bgstill {
+  background: url(https://miro.medium.com/max/7284/1*UDM0nkstECIG8FI1hee_Mw.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+	background-attachment: fixed;
+}
+
+html {
+		scroll-behavior: smooth;
+}
+.input{
+	outline: none;
+}
+.input:focus{
+	outline: 0;
+	outline-color: transparent;
+	outline-style: none
+}
+.foo:active, .foo:focus {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+select:focus, input:focus, textarea:focus {
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+
+/*-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;*/
+
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
